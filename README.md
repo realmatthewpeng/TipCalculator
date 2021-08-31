@@ -4,7 +4,7 @@ Tip Calculator is a tip calculator application for iOS.
 
 Submitted by: Matthew Peng
 
-Time spent: 2 hours spent in total
+Time spent: 4 hours spent in total
 
 ## User Stories
 
@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+* [X] Custom tip amount
+* [X] Dark mode option
 
 ## Video Walkthrough
 
@@ -34,11 +35,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was hard for me to figure out how to use UserDefaults initally.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2021 Matthew Peng
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
