@@ -4,7 +4,7 @@ Tip Calculator is a tip calculator application for iOS.
 
 Submitted by: Matthew Peng
 
-Time spent: 4 hours spent in total
+Time spent: 6 hours spent in total
 
 ## User Stories
 
@@ -24,18 +24,17 @@ The following **additional** features are implemented:
 
 * [X] Custom tip amount
 * [X] Dark mode option
+* [X] Option to split bill
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://imgur.com/a/aj8MBTW' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-It was hard for me to figure out how to use UserDefaults initally.
+Figuring out how to leverage UserDefaults correctly to implement a Dark Mode option was challenging at first, but once I figured it out I became more comfortable with using UserDefaults in general and was easily able to implement the custom tip functionality.
 
 ## License
 

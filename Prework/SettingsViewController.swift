@@ -15,6 +15,8 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -28,7 +30,7 @@ class SettingsViewController: UIViewController {
         } else {
             overrideUserInterfaceStyle = .light
         }
-        let customTipText = String(defaults.double(forKey: "customTip"))
+        let customTipText = String(format: "%.2f", defaults.double(forKey: "customTip"))
         customTip.text = customTipText
     }
     
